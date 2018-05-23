@@ -1,0 +1,123 @@
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+.navbar-brand span {
+  color: #0483e1 !important;
+  font-size: 14px;
+  font-weight: 300;
+  padding: 0 10px; }
+
+#head {
+  position: relative;
+  background-image: url("../img/banner.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 370px; }
+  #head .content {
+    position: absolute;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center; }
+    #head .content h4 {
+      font-size: 30px;
+      text-transform: uppercase;
+      font-weight: 400;
+      padding: 0 0; }
+    #head .content hr {
+      border: 1px solid white;
+      width: 63px;
+      padding: 0 0;
+      margin: 0 auto; }
+    #head .content p {
+      padding-top: 40px;
+      font-size: 15px;
+      font-weight: 400; }
+      #head .content p span {
+        font-size: 20px;
+        font-weight: 700; }
+
+#quizz {
+  padding: 40px 0; }
+  #quizz .title h1 {
+    line-height: 2rem;
+    padding-top: 20px;
+    margin: 4px 2px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0483e1; }
+    #quizz .title h1 .circle {
+      color: #fff;
+      padding: 5px 10px;
+      margin: 4px 2px;
+      text-align: center;
+      vertical-align: middle;
+      border-radius: 50%;
+      background-color: #0483e1; }
+  #quizz .test {
+    padding: 10px 10px; }
+    #quizz .test h4 {
+      font-size: 15px;
+      color: #323232;
+      padding-bottom: 5px;
+      font-weight: 400; }
+    #quizz .test .form-check label {
+      font-size: 13px;
+      font-weight: 300; }
+  #quizz form {
+    width: 100%;
+    background-color: #139e49;
+    color: #fff;
+    margin-top: 15px; }
+    #quizz form .form-row {
+      width: 80%;
+      margin: 0 auto; }
+      #quizz form .form-row .civ {
+        padding-top: 15px;
+        font-weight: 400; }
+      #quizz form .form-row label {
+        font-size: 12px;
+        font-weight: 400; }
+      #quizz form .form-row button {
+        margin-bottom: 15px; }
+
+.jumbotron {
+  background-color: #e1e2e3;
+  margin: 0 auto; }
+  .jumbotron h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #666666;
+    padding-bottom: 10px; }
+  .jumbotron p {
+    margin: 0 auto;
+    padding: 0 0;
+    font-weight: 300;
+    font-size: 13px;
+    color: #323232;
+    text-align: justify; }
+
+footer {
+  background-color: #323232;
+  padding: 20px 0; }
+  footer .content-left {
+    float: left;
+    text-align: left;
+    color: #fff; }
+    footer .content-left h1 {
+      font-size: 13px;
+      font-weight: 300; }
+  footer .content-right {
+    float: right;
+    color: #fff;
+    text-align: right; }
+    footer .content-right h1 {
+      align-items: center;
+      font-size: 13px;
+      font-weight: 300; }
+
+/*# sourceMappingURL=main.css.map */
